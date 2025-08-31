@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "femock-js": {
+      "command": "node",
+      "args": ["./mcps/femock-js/index.js"],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "disabled": false,
+      "autoApprove": [
+        "create_interview_task",
+        "get_task_status",
+        "analyze_task_phase1",
+        "analyze_task_phase2", 
+        "save_analysis_result",
+        "start_interview_round",
+        "answer_interview_question",
+        "add_follow_up_question"
+      ]
+    }
+  }
+}

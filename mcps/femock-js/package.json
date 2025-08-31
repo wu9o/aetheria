@@ -1,0 +1,16 @@
+{
+  "name": "@aetheria/femock-js",
+  "version": "0.1.0",
+  "description": "Frontend Mock Interview MCP Server (JavaScript)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "keywords": ["mcp", "interview", "frontend"],
+  "author": "Aetheria",
+  "license": "MIT"
+}
