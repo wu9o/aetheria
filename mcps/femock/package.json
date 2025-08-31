@@ -1,21 +1,16 @@
 {
   "name": "@aetheria/femock",
   "version": "0.1.0",
-  "private": true,
+  "description": "Frontend Mock Interview MCP Server (JavaScript)",
   "type": "module",
-  "main": "dist/index.js",
-  "bin": {
-    "femock": "dist/index.js"
-  },
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w"
+    "start": "node index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.5.0"
+    "@modelcontextprotocol/sdk": "^0.6.0"
   },
-  "devDependencies": {
-    "@types/node": "^24.3.0",
-    "typescript": "^5.0.0"
-  }
+  "keywords": ["mcp", "interview", "frontend"],
+  "author": "Aetheria",
+  "license": "MIT"
 }

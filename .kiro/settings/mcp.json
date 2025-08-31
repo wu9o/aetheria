@@ -2,7 +2,7 @@
   "mcpServers": {
     "femock-js": {
       "command": "node",
-      "args": ["./mcps/femock-js/index.js"],
+      "args": ["./mcps/femock/index.js"],
       "env": {
         "NODE_ENV": "production"
       },
